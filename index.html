@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MxO Emulator Wardrobe</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="wardrobe.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="wardrobe_support.js"></script>
+  <script src="wardrobe_code.js"></script>
+  <script src="wardrobe.js"></script>
+</head>
+<body>
+<div class="container" style="margin-top: 100px; padding: 20px; border: 1px solid #040">
+  <div class="row">
+    <div class="span10 offset1" style="text-align: center;">
+      <img src="logo.png" width="307" height="124" alt="The MxOEMU Wardrobe"/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span10 offset1">
+      <label for="gender">Gender:</label>
+      <select id="gender">
+        <option value="0">Male</option>
+        <option value="1">Female</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span6 offset1">
+      <div class="row">
+        <div class="span3">
+          <label for="hat">Hat Type:</label>
+          <select id="hat"></select>
+        </div>
+        <div class="span3">
+          <label for="hatcolour" id="hatcolourlabel">Hat Colour:</label>
+          <select id="hatcolour"></select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <label for="glasses">Glasses Type:</label>
+          <select id="glasses"></select>
+        </div>
+        <div class="span3">
+          <label for="glassescolour" id="glassescolourlabel">Glasses Colour:</label>
+          <select id="glassescolour"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <label for="shirt">Shirt Type:</label>
+          <select id="shirt"></select>
+        </div>
+        <div class="span3">
+          <label for="shirtcolour" id="shirtcolourlabel">Shirt Colour:</label>
+          <select id="shirtcolour"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span6">
+          <label for="glove">Glove Type:</label>
+          <select id="glove"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <label for="trouser">Pant Type:</label>
+          <select id="trouser"></select>
+        </div>
+        <div class="span3">
+          <label for="trousercolour" id="trousercolourlabel">Pant Colour:</label>
+          <select id="trousercolour"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <label for="shoe">Shoe Type:</label>
+          <select id="shoe"></select>
+        </div>
+        <div class="span3">
+          <label for="shoecolourlabel" id="shoecolourlabel">Shoe Colour:</label>
+          <select id="shoecolour"></select>
+        </div>
+      </div>
+
+    </div>
+    <div class="span3 offset1">
+      <div id="Results" class="alert">
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 20px;">
+    <div class="span9 offset1 alert">
+      Thanks and credit go to CloudWolf for his original MxO Wardrobe, and Rajko and QuiDormit for
+      their work in originally extracting the item data from the game files.
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

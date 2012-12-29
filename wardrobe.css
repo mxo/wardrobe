@@ -1,0 +1,39 @@
+body {
+    background: url("42127.jpg") #000 top center;
+    color: #ffffff;
+}
+
+.container {
+    background: url("glass.png") repeat;
+}
+
+h1.mxo {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.alert {
+    background-color: #99cc99;
+    border: 1px solid #0c0;
+    color: #030;
+}
+
+table.results th {
+    text-align: right;
+    padding-right: 10px;
+}
+
+table.results th.header {
+    text-align: right;
+    border-bottom: 1px solid #7CA67C;
+}
+
+table.results td {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #7CA67C;
+}
+
